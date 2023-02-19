@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form,
+div{
+    display: inline-block;
+    border: solid 2px black;
+    padding: 5px;
+    min-height: 650px;
+    vertical-align: top;
+    padding: 20px;
+}
+    div#container{
+        display: block;
+        border: none;
+        margin: 20px auto;
+        width: fit-content;
+    }
+        form input[type="text"]{
+            display: block;
+            margin: 2px 0 10px 0;
+            padding: 5px;
+        }
+        form h3,
+        form label{
+            display: block;
+            margin-bottom: 2px;
+        }
+        form h3{
+            margin-top: 10px;
+        }
+
+        div#results{
+            min-width: 500px;
+            max-width: 800px;
+        }
+            span{
+                display: inline-block;
+                width: calC(25% - 3px);
+            }
+            img{
+                width: 100%;
+                height: 180px;
+                object-fit: fill;
+                border: solid 1px black;
+            }
+            p{
+                text-align: center;
+                font-size: 1.2rem;
+            }
